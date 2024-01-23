@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+*{
+    font-family: "Open Sans", sans-serif;
+}
+
+body{
+    background-color: #FFFEFE;
+    min-height: 100vh;
+}
+
+.content {
+    margin-top: 5px; /* Adjust this value based on your navbar height */
+    padding: 20px;
+}
+
+.page-separator {
+    border-bottom: 1px solid #ddd; /* Customize the color of the separator */
+    margin-bottom: 20px; /* Adjust the margin as needed */
+}
+.nav-separator {
+    border-bottom: 5px solid #ddd; /* Customize the color of the separator */
+    margin-bottom:40px; /* Adjust the margin as needed */
+}
+
+.navbar{
+    position: fixed;
+    z-index: 1000;
+    margin-bottom: 5em;
+}
+
+.Navbar ul{
+    background-color: #fefefe;
+    padding: 1em 1em;
+}
+
+.Navbar li{
+    text-decoration: none;
+    display: inline-block;
+    margin: 1em;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.Navbar select{
+    background-color: #fefefe;
+    border: 0px;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal; 
+}
+
+.Navbar a{
+    font-family: Inter;
+    font-size: 24px;
+    text-decoration: none;
+    color: #000000;
+}
+.Navbar a:hover{
+    font-family: Inter;
+    font-size: 24px;
+    text-decoration: underline;
+    color: rgb(68, 67, 67);
+}
+
+#first-name h1{
+    margin-left: -2em;
+    text-align: center;
+    font-size: 100px;
+    max-width: 100%;
+    font-weight:500;
+}
+#last-name h1{
+    text-align: center;
+    font-size: 100px;
+    margin-right: -3em;
+    margin-top: -.1em;
+    max-width: 100%;
+    font-weight:500;
+    margin-bottom: 2em;
+}
+
+.card img{
+    max-height: 60%;
+    max-width: 60%;
+    text-align: center;
+    margin-left: 4em;
+}
+
+.card-img-top {
+    max-height: 200px; 
+    object-fit: cover; 
+    margin: 1em;
+}
+.card-body{
+    text-align: center;
+}
+
+.about-me{
+    justify-content: center;
+    text-align: center;
+    margin-top: 5em;
+}
+.about-me h1{
+    margin-top: 1em;
+    font-weight: 700;
+}
+.about-me img{
+    border-radius: 50%;
+}
+.about-me p {
+    max-width: 800px; /* Adjust the value according to your preference */
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 10em;
+    font-weight: 600;
+}
+
+.experience {
+    justify-content: center;
+    text-align: center;
+    margin-top: 5em;
+}
+
+.experience h1{
+    margin-top: 1em;
+    font-weight: 700;
+}
+.experience img{
+    border-radius: 50%;
+    height: 500px;
+}
+.experience p {
+    max-width: 800px; /* Adjust the value according to your preference */
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 10em;
+    font-weight: 600;
+}
+
+footer{
+    margin-top: 4em;
+    background-color: #F9F8FA;
+    max-height: 100%;
+    padding: 1em 1em;
+}
+
+.socials a{
+    text-decoration: none;
+    color: #000;
+}
+
+.socials img{
+    max-height: 50px;
+}
+
+.socials li{
+    display: inline-block;
+    margin: 1em;
+}
+
+.socials p{
+    font-weight: 500;
+}
+
+#privacy-policy{
+    margin-left: 100em;
+}
