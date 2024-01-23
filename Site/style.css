@@ -24,25 +24,21 @@ body{
 }
 
 .navbar{
-    position: fixed;
-    z-index: 1000;
-    margin-bottom: 5em;
+    margin-bottom: 1em;
 }
 
 .Navbar ul{
     background-color: #fefefe;
-    padding: 1em 1em;
 }
 
 .Navbar li{
     text-decoration: none;
     display: inline-block;
-    margin: 1em;
+    margin: 2em;
     color: #000;
     text-align: center;
-    font-family: Inter;
+    font-family: "Open Sans", sans-serif;
     font-size: 24px;
-    font-style: normal;
     font-weight: 500;
     line-height: normal;
 }
@@ -60,15 +56,15 @@ body{
 }
 
 .Navbar a{
-    font-family: Inter;
+    font-family: "Open Sans", sans-serif;
     font-size: 24px;
     text-decoration: none;
     color: #000000;
 }
 .Navbar a:hover{
-    font-family: Inter;
     font-size: 24px;
-    text-decoration: underline;
+    font-weight: 600;
+    text-decoration: none;
     color: rgb(68, 67, 67);
 }
 
@@ -148,7 +144,7 @@ body{
 }
 
 footer{
-    margin-top: 4em;
+    margin-top: 1em;
     background-color: #F9F8FA;
     max-height: 100%;
     padding: 1em 1em;
