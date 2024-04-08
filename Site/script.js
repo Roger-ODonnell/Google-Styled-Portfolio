@@ -31,7 +31,7 @@ var blogCount = 0;
             // Blog post content
             blogElement.innerHTML = `
                 <div class="card">
-                    <img src="/Images/html-icon.png" class="card-img-top custom-card-img" alt="blog-image">
+                    <img src="/site/Images/html-icon.png" class="card-img-top custom-card-img" alt="blog-image">
                     <div class="card-body">
                         <h5 class="card-title">New Blog</h5>
                         <p>This is a new blog post.</p>
